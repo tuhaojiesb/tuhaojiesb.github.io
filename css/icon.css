@@ -1,9 +1,7 @@
 @font-face {
     font-family: "iconfont";
     /* Project id 4208251 */
-    src: url('//at.alicdn.com/t/c/font_4208251_39ysa61geof.woff2?t=1691832328254') format('woff2'),
-        url('//at.alicdn.com/t/c/font_4208251_39ysa61geof.woff?t=1691832328254') format('woff'),
-        url('//at.alicdn.com/t/c/font_4208251_39ysa61geof.ttf?t=1691832328254') format('truetype');
+    src: url('//at.alicdn.com/t/c/font_4208251_ljz1la1vzv.woff2?t=1692533323011') format('woff2'), url('//at.alicdn.com/t/c/font_4208251_ljz1la1vzv.woff?t=1692533323011') format('woff'), url('//at.alicdn.com/t/c/font_4208251_ljz1la1vzv.ttf?t=1692533323011') format('truetype');
 }
 
 .iconfont {
@@ -14,14 +12,18 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-zhuye:before {
+    content: "\e663";
+}
+
 .icon-github:before {
     content: "\e63a";
     font-size: 22px;
-    color:#000
+    color: #000;
 }
 
 .icon-weixin--circle:before {
     content: "\e600";
     font-size: 22px;
-    color:#00bf03
+    color: #00bf03;
 }
