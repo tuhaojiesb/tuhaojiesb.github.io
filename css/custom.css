@@ -12,10 +12,16 @@ body {
 #page-header {
     background: 0 0 !important
 }
-#site-title {
+
+#site-title,
+#site-subtitle,
+.site-name,
+#aside-content .author-info__name,
+#aside-content .author-info__description {
     font-family: THJ, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", STZhongsong, "Lantinghei SC", sans-serif !important;
 
 }
+
 #web_bg {
     background-size: 100% !important;
     background: linear-gradient(90deg, rgba(247, 149, 51, .1), rgba(243, 112, 85, .1) 15%, rgba(239, 78, 123, .1) 30%, rgba(161, 102, 171, .1) 44%, rgba(80, 115, 184, .1) 58%, rgba(16, 152, 173, .1) 72%, rgba(7, 179, 155, .1) 86%, rgba(109, 186, 130, .1))
