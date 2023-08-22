@@ -4,22 +4,12 @@
     src: url('/fonts/FZFWZhu.ttf');
     font-display: swap
 }
-
-body {
-    font-family: THJ, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", STZhongsong, "Lantinghei SC", sans-serif;
-}
-
 #page-header {
     background: 0 0 !important
 }
 
-#site-title,
-#site-subtitle,
-.site-name,
-#aside-content .author-info__name,
-#aside-content .author-info__description {
-    font-family: THJ, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", STZhongsong, "Lantinghei SC", sans-serif !important;
-
+#site-title, #site-subtitle, .site-name, #aside-content .author-info__name, #aside-content .author-info__description {
+    font-family: THJ, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", STZhongsong, "Lantinghei SC", sans-serif;
 }
 
 #web_bg {
