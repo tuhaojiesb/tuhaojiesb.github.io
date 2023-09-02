@@ -10,8 +10,84 @@
 }
 
 body {
-    cursor: url(https://npm.elemecdn.com/kang-static/Hexo/img/default.cur), default
+    cursor: url('/images/default.cur'), default;
+    font-size: 18px;
 }
+
+#recent-posts>.recent-post-item>.recent-post-info>.article-meta-wrap>.post-meta-date {
+    cursor: url('/images/pointer.cur'), auto !important;
+}
+
+ul:before,
+li:before {
+    cursor: url('/images/pointer.cur'), auto !important;
+}
+
+#pagination span {
+    cursor: url('/images/pointer.cur'), auto !important;
+}
+
+a,
+img,
+button,
+svg,
+canvas,
+select {
+    cursor: url(https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/pointer.cur), auto !important;
+}
+
+i.scroll-down-effects {
+    cursor: url(https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/pointer.cur), auto !important;
+}
+
+.reward-button {
+    cursor: url(https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/pointer.cur), auto !important;
+}
+
+#pagination a {
+    cursor: url(https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/pointer.cur), auto !important;
+}
+
+.fancybox,
+.fancybox-button,
+.fancybox-content {
+    cursor: url(https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/pointer.cur), auto !important;
+}
+
+#article-container figure.highlight .highlight-tools .expand~.copy-button,
+#article-container figure.highlight .highlight-tools .expand,
+#article-container .code-expand-btn {
+    cursor: url(https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/pointer.cur), auto !important;
+}
+
+.switch-btn,
+.vcol *,
+.v[data-class=v] .vicon,
+.v[data-class=v] .vbtn,
+.vat,
+.vemojis *,
+.vcontent.expand {
+    cursor: url(https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/pointer.cur), auto !important;
+}
+
+.tk-action-icon,
+.tk-panel .tk-tab,
+.tk-expand,
+.tk-pagination-pager,
+.OwO .OwO-body,
+.OwO .OwO-body .OwO-items .OwO-item,
+.OwO .OwO-body .OwO-bar .OwO-packages li {
+    cursor: url(https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/pointer.cur), auto !important;
+}
+
+.card-star {
+    cursor: url(https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/pointer.cur), auto !important;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: url(https://cdn.jsdelivr.net/gh/Eurkon/CDN@master/hexo/images/user/pointer.cur), auto !important;
+}
+
 
 #site-title,
 #site-subtitle,
@@ -754,7 +830,7 @@ svg.icon {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(57,197,187);
+    background-color: rgb(57, 197, 187);
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .4) 50%, rgba(255, 255, 255, .4) 75%, transparent 75%, transparent);
     border-radius: 2em;
 }
@@ -762,4 +838,12 @@ svg.icon {
 ::-webkit-scrollbar-track {
     background-color: rgba(73, 177, 245, .2);
     border-radius: 2em;
+}
+/* 调整间距 */
+#page {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+html[data-theme="light"] .meta-firstline,.post-meta-categories,.meta-secondline{
+    color: rebeccapurple !important;
 }
